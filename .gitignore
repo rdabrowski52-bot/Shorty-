@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+
+# media — generowane lokalnie, nie trzymamy w git
+clips/
+output/
