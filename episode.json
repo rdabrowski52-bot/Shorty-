@@ -1,0 +1,32 @@
+{
+  "_instrukcja": "Wygeneruj klipy w Flow z pola 'prompt' każdego beatu, wrzuć do clips/, dodaj music/tension_loop.mp3 (albo usuń klucz 'music'). Potem: python3 -m lib.assemble_narrated --episode episode.json --out output/apollo12.mp4",
+  "title": "Apollo 12 — SCE to AUX",
+  "beats": [
+    {
+      "text": "November 1969. Thirty-six seconds into the flight to the Moon, lightning hits the rocket.",
+      "clip": "clips/apollo12_beat1.mp4",
+      "prompt": "Vertical 9:16. Interior of a cramped 1969 Apollo command module cockpit during launch, three astronauts in white pressure suits and helmets strapped in, violent vibration. A blinding blue-white lightning flash floods through the small triangular window and freezes the cabin for one frame, then darkness and flickering panel lights. Slow dolly-in on the commander's visor reflecting the flash. Hard contrasty shadows, 35mm film grain, cinematic thriller color grading, no on-screen text, no dialogue."
+    },
+    {
+      "text": "Seconds later, it strikes again. Alarms flood the cockpit. In Houston, the data turns to garbage.",
+      "clip": "clips/apollo12_beat2.mp4",
+      "prompt": "Vertical 9:16. Extreme close-up of a 1969 spacecraft instrument panel: dozens of amber and red warning lights snapping on at once, needle gauges dropping to zero, a red master alarm light pulsing. Cut-in feel within one shot: a monochrome CRT monitor in a dark 1969 control room, rows of numbers dissolving into random flickering static. Slow dolly-in, red light washing over metal toggles, heavy shadows, 35mm film grain, cinematic thriller color grading, no readable text, no dialogue."
+    },
+    {
+      "text": "The flight director is ready to abort. Then one engineer says four words nobody in the room understands.",
+      "clip": "clips/apollo12_beat3.mp4",
+      "prompt": "Vertical 9:16. 1969 mission control room, dim and smoky, tight medium close-up of a young engineer in a white short-sleeved shirt and narrow black tie, headset on, lit only by the green glow of his CRT screen full of garbled numbers. Colleagues are out-of-focus silhouettes behind him. His eyes narrow in recognition, he leans toward his microphone. Very slow dolly-in to his face, deep shadows, 35mm film grain, cinematic thriller color grading, no on-screen text, no dialogue."
+    },
+    {
+      "text": "“Try S-C-E to Aux.” One obscure switch. The data comes back — and Apollo 12 flies on to the Moon.",
+      "clip": "clips/apollo12_beat4.mp4",
+      "prompt": "Vertical 9:16. Inside a shaking 1969 Apollo command module, extreme close-up of an astronaut's white pressure-suit glove reaching past rows of identical small metal toggle switches and flicking one single switch. Immediately the red warning lights go dark one by one and the cabin settles into calm steady white light. Slow dolly-in on the switch, hard shadows turning soft, 35mm film grain, cinematic thriller color grading, no readable labels, no dialogue."
+    },
+    {
+      "text": "He only knew because, a year earlier, he saw the same garbage in a test — and couldn't let it go.",
+      "clip": "clips/apollo12_beat5.mp4",
+      "prompt": "Vertical 9:16. 1968, late night, an empty windowless test control room lit by a single desk lamp and one monochrome CRT monitor showing jumbled flickering numbers. The same young engineer in a white short-sleeved shirt sits alone, pencil in hand, circling figures on a printout, staring at the screen. Slow dolly-in over his shoulder toward the monitor, warm lamp against cold screen glow, deep shadows, 35mm film grain, cinematic thriller color grading, no readable text, no dialogue."
+    }
+  ],
+  "music": "music/tension_loop.mp3"
+}

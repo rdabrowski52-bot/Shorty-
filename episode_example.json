@@ -1,0 +1,10 @@
+{
+  "_instrukcja": "Wygeneruj klipy w Flow wg promptów z NICHE.md, wrzuć do clips/, podmień ścieżki. Potem: python3 -m lib.assemble_narrated --episode episode.json --out output/petrov.mp4",
+  "beats": [
+    {"text": "September 26th, 1983.", "clip": "clips/petrov_beat1.mp4"},
+    {"text": "Soviet early-warning systems detect five incoming American nuclear missiles.", "clip": "clips/petrov_beat2.mp4"},
+    {"text": "One man is on duty. He has minutes to decide.", "clip": "clips/petrov_beat3.mp4"},
+    {"text": "He breaks protocol. He calls it a false alarm. He's right — and just prevented nuclear war.", "clip": "clips/petrov_beat4.mp4"}
+  ],
+  "music": "music/tension_loop.mp3"
+}
